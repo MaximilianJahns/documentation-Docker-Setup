@@ -34,12 +34,9 @@ Using it for GMT comes with the following issues:
 
 If one of the mentioned issues is a problem for you, consider installing Docker natively inside of your prefered WSL 2 distribution (e.g. [Ubuntu](https://docs.docker.com/engine/install/ubuntu/)).
 
-## Setup
-
-Before following the setup instructions given in [Installation on Linux →]({{< relref "installation-linux#setup" >}}), you have to first change your WSL configuration.
 
 ### Change WSL config
-
+Before following the setup instructions for the Linux environment, you have to first change your WSL configuration.
 Required changes:
 
 - Disable automatic generation of hosts file
@@ -129,3 +126,9 @@ However, for testing your usage scenarios you can use at least the following met
     - Documentation: [Measuring/Metric Providers/PSU Energy - AC - XGBoost - Machine]({{< relref "/docs/measuring/metric-providers/psu-energy-xgboost-machine" >}})
 
 You have to disable all other providers in your `config.yml`.
+
+
+
+## Setup
+
+now you can follow with the setup instructions given in [Installation on Linux →]({{< relref "installation-linux#setup" >}})

@@ -58,10 +58,10 @@ baseName = "search-index"
 isPlainText = true
 notAlternative = true
 
-[caches]
-  [caches.getjson]
-    dir = ":cacheDir/:project"
-    maxAge = "10s"
+#[caches]
+ # [caches.getjson]
+  #  dir = ":cacheDir/:project"
+   # maxAge = "10s"
 
 [sitemap]
   changefreq = "weekly"
